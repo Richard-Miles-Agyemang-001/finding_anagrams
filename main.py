@@ -13,7 +13,7 @@ def find_anagram(word, anagram):
     word = word.replace(" ", "")
     anagram = anagram.replace(" ", "")
 
-    #sorted(word) == sorted(anagram) //True or  False
+    #sorted(word) == sorted(anagram) //True or  False //
     return sorted(word) == sorted(anagram)
 
 print(" find_anagram with 'hello' and 'check' ", find_anagram("hello", "check"))
